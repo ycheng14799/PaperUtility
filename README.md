@@ -4,10 +4,15 @@ Currently:
 * We collected crowdsource results for 14 out of 20 of our attributes (except 15.Physical Manipulation, 16.Feedback, 17.Privacy, 18.Security, 19.Accessibility, and 20.Cost)
 * We calculated the product preference rankings and absolute distance data for each attribute using the Bradley-Terry model
 * We visualized our results in 4 ways: 
-  * Bump chart to show ranking correlations
+  * Bump chart to show ranking correlations 
   * A parallel coordinates plot 
-  * Radar graphs ( ) 
+  * Radar graphs ( https://github.com/ycheng14799/PaperUtility/tree/master/Radar_Chart%20of%20Products%20and%20Attributes plz download here ) 
   * Heatmaps (e.g. visualizing range of content input for 12 products)
+  
+  
+### Bump chart 
+
+
 ### Crowdsource Results
 We now have results for the following attributes: 1.Temporality, 2.Spatiality, 3.Range of Content Input, 4.Physical Reconfigurability, 5.Personalization, 6.Information Volume, 7.Information Variety, 8.Information Organization, 9.Information Findability, 10.Information Exploration, 11.Environment, 12.Durability, 13.Digitalization, and 14.Collaboration
 
