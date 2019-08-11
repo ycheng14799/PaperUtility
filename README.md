@@ -36,7 +36,21 @@ The plot shows the Bradley-Terry-Luce scale values of the products for each attr
 
 We also generated a radar graph for each product. Here is an example: 
 ![Radar Chart](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Semi-structuredRadarExample.png) Please check the whole radar graph pics in the folder. 
-Explain 0.2 here ---------------
+#### Description of Radar Chart
+
+After collecting and filtering data from M-Turk, we have tried to use Bradley-Terry-Luce model to calculate the absolute score of each product by referring to [*" A Matlab function to estimate choice model parameters from paired-comparison data "*](https://link.springer.com/article/10.3758/BF03195547)  
+
+##### Description of the folder "Radar_Graph_Per_Attribute"
+
+Folder "Radar_Graph_Per_Attribute" depicts the distribution of products according to each attribute. 
+
+By measuring the "ratio scale" by using log-likelihood algorithm to realize BTL, we draw the radar chart of each attribute. The bigger the "ratio scale" is, the higher preference one product will have. 
+
+##### Description of the folder "Radar_Graph_Per_Product"
+
+Folder "Radar_Graph_Per Product" depicts the distribution of attributes in each product.
+
+We also use the "ratio scale" calculated by BTL model to measure the distance of each attribute. Books, Calendars, Large-Scale Paper Display, Magazines & Pamphlets and Maps & Spatial Plans are using the absolute result of BTL. By illustrating the attribute distribution of "Newspaper" and the others, draw the radar chart starting from 0.2 to make the plot more distinguishable.
 
 Lastly, in Professor Horner's paper, he visualized the probability that one product will be prefered over another using a heatmap. We thought that that the visualization was highly informative, so we decided to do the same: 
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
