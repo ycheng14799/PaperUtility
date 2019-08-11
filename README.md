@@ -34,19 +34,17 @@ The following is a parallel coordinates plot of our results:
 ![Parallel Coordinates Plot](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/ParallelCoordinatesPlotOne.png)
 The plot shows the Bradley-Terry-Luce scale values of the products for each attribute. All values are shifted so the lowest BTL score is at 1. We decided not to normalize the values as the distance between each score is indicative of how much more one product was preferred over another. For instance, books received an absurdly high shifted score of approximately 8 in durability because it was highly preferred over the other products. Aside from one user comparison, all other user comparisons marked books as more preferable in durability than any other product.  
 
-We also generated a radar graph for each product. Here is an example: 
-![Radar Chart](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Semi-structuredWrittenForms.png)
-We have included more examples below.
+We also generated a radar graph for each product. We will discuss these graphs in the next section.
 
 Lastly, in Professor Horner's paper, he visualized the probability that one product will be prefered over another using a heatmap. We thought that that the visualization was highly informative, so we decided to do the same: 
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
 This graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". There are also more examples below.
 
-#### Description of Radar Chart
+#### Radar Charts
 
 After collecting and filtering data from M-Turk, we tried to use the Bradley-Terry-Luce model to calculate an absolute preference score of each product using: [*" A Matlab function to estimate choice model parameters from paired-comparison data "*](https://link.springer.com/article/10.3758/BF03195547)  
 
-##### Description of the folder "Radar_Graph_Per_Attribute"
+##### Description of the folder: "Radar_Graph_Per_Attribute"
 
 The graphs contained in the "Radar_Graph_Per_Attribute" folder show the product preference scores for each attribute. 
 
@@ -54,7 +52,7 @@ By measuring the "ratio scale" using the log-likelihood estimate of BTL, we draw
 Below is the radar chart for the "Collaboration" attribute:
 ![Collaboration](https://github.com/ycheng14799/PaperUtility/blob/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Attribute/Collaboration.png?raw=true)
 
-##### Description of the folder "Radar_Graph_Per_Product"
+##### Description of the folder: "Radar_Graph_Per_Product"
 
 The graphs contained in the "Radar_Graph_Per Product" folder show the attribute preference scores for each product. 
 
@@ -63,20 +61,21 @@ We use the same "ratio scale" as above. Books, Calendars, Large-Scale Paper Disp
 Below is the radar chart for "Paper Crafts & Artwork":
 ![Paper Crafts & Art Work](https://github.com/ycheng14799/PaperUtility/blob/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Paper%20Crafts%20%26%20Artworks(set%20minimum%20value%20%3D%200.2).png)
 
-### Radar Charts (Plotly)
-The following 5 radar charts were produced in Python using Plotly. The plots show the Bradley-Terry-Luce scale values of the products for each attribute. All values are shifted so the lowest BTL score is at one.
-![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Books.png)
-![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Calendars.png)
-![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/LargeScalePaperDisplays.png)
-![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Maps&SpatialLayouts.png)
-![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Notebooks&LooseLeafs.png)
-
 ### Radar Charts (Excel)
+We ultimately tried out two ways of making radar charts. Firstly, we made our graphs using Excel. Here are 5 examples:
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Books.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Calendars.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Large-Scale%20Paper%20Display%20(i.e.%20Posters).png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Maps%20%26%20Spatial%20Plans.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Newspapers(set%20minimum%20value%3D0.2).png)
+
+### Radar Charts (Plotly)
+We also tried making radar charts using Plotly. You will notice that the scores are different from the Excel graphs. This is because we estimated the BTL values using a different method. All values are shifted so the lowest BTL score is at one.
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Books.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Calendars.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/LargeScalePaperDisplays.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Maps&SpatialLayouts.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Notebooks&LooseLeafs.png)
 
 ### Heatmaps
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Collaboration.png)
