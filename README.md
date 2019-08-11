@@ -4,9 +4,10 @@ Currently:
 * We collected crowdsource results for 14 out of 20 of our attributes (except )
 * We calculated the product preference rankings and absolute distance data for each attribute using the Bradley-Terry model
 * We visualized our results in 3 ways: 
-  * A parallel coordinates plot (bump chart to show ranking correlations)
+  * Bump chart to show ranking correlations
+  * A parallel coordinates plot 
   * Radar graphs ( ) 
-  * Heatmaps ()
+  * Heatmaps (e.g. visualizing range of content input for 12 products)
 ### Crowdsource Results
 We now have results for the following attributes: Temporality, Spatiality, Range of Content Input, Physical Reconfigurability, Personalization, Information Volume, Information Variety, Information Organization, Information Findability, Information Exploration, Environment, Durability, Digitalization, and Collaboration
 
