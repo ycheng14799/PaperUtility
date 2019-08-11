@@ -17,7 +17,7 @@ We decided to hold off on these attributes because we could not decide on what q
 For the attributes we now have results for, we relied on two quality check mechanisms: 
 1. Including duplicate questions 
 2. Asking for a comparison between a product from our set of 12 and tissues
-We ended up rejecting about 37% of the completed assignments we received. (1) was helpful. (2) we quickly realized could be highly subjective. 
+We ended up rejecting about 37% of the completed assignments we received. 1.was helpful. 2. we quickly realized could be highly subjective. 
 
 For the remaining 6 attributes, perhaps we could only use duplicate questions. 
 
