@@ -33,4 +33,5 @@ Lastly, in Professor Horner's paper, he visualized the probability that one prod
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
 The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
+All the remaining graphs were also pushed to the GitHub repository.  
 
