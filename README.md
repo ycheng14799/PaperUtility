@@ -70,7 +70,7 @@ We ultimately tried out two ways of making radar charts. Firstly, we made our gr
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Newspapers(set%20minimum%20value%3D0.2).png)
 
 ### Radar Charts (Plotly)
-We also tried making radar charts using Plotly. You will notice that the scores are different from the Excel graphs. This is because we estimated the BTL values using a different method. All values are shifted so the lowest BTL score is at one.
+We also tried making radar charts using Plotly. You will notice that the scores are different from the Excel graphs. This is because we estimated the BTL values using a different method. The Excel graph values were generated using the MATLAB implementation listed above. The Plotly graph values (as well as the parallel coordinate plot values and heatmap values) were generated using the Python implementation listed above. We are led to believe that both were using the same sort of a maximum-likelihood estimate. However, the MATLAB implementation was finding the parameters using a log-likelihood function, while the Python implementation was not. All values are shifted so that the lowest BTL score is at one.
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Books.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Calendars.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/LargeScalePaperDisplays.png)
