@@ -11,7 +11,7 @@ Currently:
   
   
 ### Bump chart 
-
+![Bump Chart](https://drive.google.com/file/d/1DjR88EzrfXO8pfILktGTNZr_PYS5ly2w/view?usp=sharing)
 
 ### Crowdsource Results
 We now have results for the following attributes: 1.Temporality, 2.Spatiality, 3.Range of Content Input, 4.Physical Reconfigurability, 5.Personalization, 6.Information Volume, 7.Information Variety, 8.Information Organization, 9.Information Findability, 10.Information Exploration, 11.Environment, 12.Durability, 13.Digitalization, and 14.Collaboration
