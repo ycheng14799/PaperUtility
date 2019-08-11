@@ -37,5 +37,19 @@ Lastly, in Professor Horner's paper, he visualized the probability that one prod
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
 The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
-All the remaining graphs are pushed to the GitHub repository.  
+### Heatmaps
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Collaboration.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Digitalization.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Durability.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Environment.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/InformationExploration.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/InformationFindability.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/InformationOrganization.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/InformationVariety.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/InformationVolume.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Personalization.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/PhysicalReconfigurability.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/RangeofContentInput.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Spatiality.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Temporality.png)
 
