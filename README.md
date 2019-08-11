@@ -32,7 +32,7 @@ With our pairwise comparisons, we calculated a preference score for each product
 
 The following is a parallel coordinates plot of our results: 
 ![Parallel Coordinates Plot](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/ParallelCoordinatesPlot.png)
-The plot shows the Bradley-Terry-Luce scale values of the products for each attribute.
+The plot shows the Bradley-Terry-Luce scale values of the products for each attribute. All values are shifted so the lowest BTL score is at zero. We decided not to normalize the values as the distance between each score is indicative of how much more one product was preferred over another. For instance, books received an absurdly high shifted score of approximately 8 in durability because it was highly preferred over the other products. Aside from one user comparison, all other user comparisons marked books as more preferable in durability than any other product.  
 
 We also generated a radar graph for each product. Here is an example: 
 ![Radar Chart](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Semi-structuredRadarExample.png) Please check the whole radar graph pics in the folder. 
