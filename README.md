@@ -60,7 +60,8 @@ Lastly, in Professor Horner's paper, he visualized the probability that one prod
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
 The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
-### Radar Charts
+### Radar Charts (Plotly)
+The following radar charts were produced in Python using Plotly. The plots show the Bradley-Terry-Luce scale values of the products for each attribute. All values are shifted so the lowest BTL score is at one.
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Books.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Calendars.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/LargeScalePaperDisplays.png)
@@ -71,6 +72,16 @@ The graph compares products for each attribute. The darker the color of a cell, 
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/PrintedDigitalDocuments.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Semi-structuredWrittenForms.png)
 ![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/StickyNotes.png)
+
+### Radar Charts (Excel)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Books.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Calendars.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Large-Scale%20Paper%20Display%20(i.e.%20Posters).png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Maps%20%26%20Spatial%20Plans.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Newspapers(set%20minimum%20value%3D0.2).png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Notebooks%20%26%20Loose%20Leafs%20(set%20minimum%20value%20%3D%200.2).png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Paper%20Cards%20(i.e.%20Name%20Cards)%20set%20minimum%20value%20%3D%200.2.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Paper%20Crafts%20%26%20Artworks(set%20minimum%20value%20%3D%200.2).png)
 
 ### Heatmaps
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Collaboration.png)
