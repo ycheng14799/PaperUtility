@@ -36,6 +36,11 @@ The plot shows the Bradley-Terry-Luce scale values of the products for each attr
 
 We also generated a radar graph for each product. Here is an example: 
 ![Radar Chart](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Semi-structuredWrittenForms.png) Please check the whole radar graph pics in the folder. 
+
+Lastly, in Professor Horner's paper, he visualized the probability that one product will be prefered over another using a heatmap. We thought that that the visualization was highly informative, so we decided to do the same: 
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
+The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
+
 #### Description of Radar Chart
 
 After collecting and filtering data from M-Turk, we have tried to use Bradley-Terry-Luce model to calculate the absolute score of each product by referring to [*" A Matlab function to estimate choice model parameters from paired-comparison data "*](https://link.springer.com/article/10.3758/BF03195547)  
@@ -55,10 +60,6 @@ Folder "Radar_Graph_Per Product" depicts the distribution of attributes in each 
 We also use the "ratio scale" calculated by BTL model to measure the distance of each attribute. Books, Calendars, Large-Scale Paper Display, Magazines & Pamphlets and Maps & Spatial Plans are using the absolute result of BTL. By illustrating the attribute distribution of "Newspaper" and the others, draw the radar chart starting from 0.2 to make the plot more distinguishable.
 The example of "Paper Crafts & Art Work" is shown below.
 ![Paper Crafts & Art Work](https://github.com/ycheng14799/PaperUtility/blob/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Paper%20Crafts%20%26%20Artworks(set%20minimum%20value%20%3D%200.2).png)
-
-Lastly, in Professor Horner's paper, he visualized the probability that one product will be prefered over another using a heatmap. We thought that that the visualization was highly informative, so we decided to do the same: 
-![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
-The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
 ### Radar Charts (Plotly)
 The following radar charts were produced in Python using Plotly. The plots show the Bradley-Terry-Luce scale values of the products for each attribute. All values are shifted so the lowest BTL score is at one.
