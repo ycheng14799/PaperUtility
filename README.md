@@ -6,7 +6,7 @@ Currently:
 * We visualized our results in 4 ways: 
   * Bump chart to show ranking correlations 
   * A parallel coordinates plot 
-  * Radar graphs ( https://github.com/ycheng14799/PaperUtility/tree/master/Radar_Chart%20of%20Products%20and%20Attributes plz download here ) 
+  * [Radar graphs](https://github.com/ycheng14799/PaperUtility/tree/master/Radar_Chart%20of%20Products%20and%20Attributes) 
   * Heatmaps (e.g. visualizing range of content input for 12 products)
   
   
@@ -28,14 +28,14 @@ For the remaining 6 attributes, perhaps we could only use duplicate questions.
 
 
 ### Bradley-Terry & Visualization 
-With our pairwise comparisons, we calculated a preference score for each product, using the BT(L) model, for each attribute. We tried out several off-the-shelf solutions (in [R](https://github.com/hturner/BradleyTerry2), MATLAB, and [Python](http://choix.lum.li/en/latest/index.html)). We have not yet decided on which solution to use. Besides from which off-the-shelf solution to use, we also have to decide on what estimation method to use for the BT(L) parameters. We are leaning towards using the MM algorithm as that was used previously by Professor Andrew Horner (where is this citation? ). 
+With our pairwise comparisons, we calculated a preference score for each product, using the BT(L) model, for each attribute. We tried out several off-the-shelf solutions (in [R](https://github.com/hturner/BradleyTerry2), MATLAB, and [Python](http://choix.lum.li/en/latest/index.html)). We have not yet decided on which solution to use. Besides from which off-the-shelf solution to use, we also have to decide on what estimation method to use for the BT(L) parameters. We are leaning towards using the MM algorithm as that was used previously by Professor [Andrew Horner](https://pdfs.semanticscholar.org/c3b2/10be60cfbff06e18f6047d1854a97e985b61.pdf). 
 
 The following is a parallel coordinates plot of our results: 
-![Parallel Coordinates Plot](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/ParallelCoordinatesPlot.png)
-The plot shows the Bradley-Terry-Luce scale values of the products for each attribute. All values are shifted so the lowest BTL score is at zero. We decided not to normalize the values as the distance between each score is indicative of how much more one product was preferred over another. For instance, books received an absurdly high shifted score of approximately 8 in durability because it was highly preferred over the other products. Aside from one user comparison, all other user comparisons marked books as more preferable in durability than any other product.  
+![Parallel Coordinates Plot](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/ParallelCoordinatesPlotOne.png)
+The plot shows the Bradley-Terry-Luce scale values of the products for each attribute. All values are shifted so the lowest BTL score is at one. We decided not to normalize the values as the distance between each score is indicative of how much more one product was preferred over another. For instance, books received an absurdly high shifted score of approximately 8 in durability because it was highly preferred over the other products. Aside from one user comparison, all other user comparisons marked books as more preferable in durability than any other product.  
 
 We also generated a radar graph for each product. Here is an example: 
-![Radar Chart](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Semi-structuredRadarExample.png) Please check the whole radar graph pics in the folder. 
+![Radar Chart](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Semi-structuredWrittenForms.png) Please check the whole radar graph pics in the folder. 
 #### Description of Radar Chart
 
 After collecting and filtering data from M-Turk, we have tried to use Bradley-Terry-Luce model to calculate the absolute score of each product by referring to [*" A Matlab function to estimate choice model parameters from paired-comparison data "*](https://link.springer.com/article/10.3758/BF03195547)  
@@ -60,6 +60,18 @@ Lastly, in Professor Horner's paper, he visualized the probability that one prod
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
 The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
+### Radar Charts
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Books.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Calendars.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/LargeScalePaperDisplays.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Maps&SpatialLayouts.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Notebooks&LooseLeafs.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/PaperCards.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/PaperCrafts&Artworks.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/PrintedDigitalDocuments.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/Semi-structuredWrittenForms.png)
+![Radar](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PlotlyRadarGraphs/StickyNotes.png)
+
 ### Heatmaps
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Collaboration.png)
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Digitalization.png)
@@ -75,4 +87,3 @@ The graph compares products for each attribute. The darker the color of a cell, 
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/RangeofContentInput.png)
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Spatiality.png)
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Temporality.png)
-
