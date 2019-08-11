@@ -6,7 +6,7 @@ Currently:
 * We visualized our results in 3 ways: 
   * A parallel coordinates plot (bump chart to show ranking correlations)
   * Radar graphs ( ) 
-  * Heatmaps
+  * Heatmaps ()
 ### Crowdsource Results
 We now have results for the following attributes: Temporality, Spatiality, Range of Content Input, Physical Reconfigurability, Personalization, Information Volume, Information Variety, Information Organization, Information Findability, Information Exploration, Environment, Durability, Digitalization, and Collaboration
 
