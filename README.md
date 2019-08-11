@@ -19,3 +19,5 @@ For the attributes we now have results for, we relied on two quality check mecha
 We ended up rejecting about 37% of the completed assignments we received. (1) was helpful. (2) we quickly realized could be highly subjective. 
 
 For the remaining 6 attributes, perhaps we could just use (1). 
+### Bradley-Terry & Visualization 
+With our pairwise comparisons, we calculated a preference score for each product, using the BT(L) model, for each attribute. We tried out several off-the-shelf solutions (in [R](https://github.com/hturner/BradleyTerry2), [MATLAB], and [Python](http://choix.lum.li/en/latest/index.html)). We have not yet decided on which solution to use. Besides from which off-the-shelf solution to use, we also have to decide on what estimation method to use for the BT(L) parameters. We are leaning towards using the MM algorithm as that was used previously by Professor Andrew Horner. 
