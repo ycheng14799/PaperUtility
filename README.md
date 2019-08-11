@@ -29,8 +29,8 @@ The plot shows the Bradley-Terry-Luce scale values of the products for each attr
 We also generated a radar graph for each product. Here is an example: 
 ![Radar Chart](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/Semi-structuredRadarExample.png)
 
-Lastly, in Professor Horner's paper, he visualized the probabilities that one product will be prefered over another using a heatmap. We thought that the visualization was highly informative, so we decided to do the same: 
+Lastly, in Professor Horner's paper, he visualized the probability that one product will be prefered over another using a heatmap. We thought that that the visualization was highly informative, so we decided to do the same: 
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
-The graph shows the comparison between products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
+The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
 
