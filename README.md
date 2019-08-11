@@ -43,7 +43,8 @@ Lastly, in Professor Horner's paper, he visualized the probability that one prod
 The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
 ### Heatmaps
-![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Collaboration.png)
+![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Collaboration.png){width:100px}
+
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Digitalization.png)
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Durability.png)
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/PreferenceProbabilityHeatmaps/Environment.png)
