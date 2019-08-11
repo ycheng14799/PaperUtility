@@ -56,7 +56,7 @@ Below is the radar chart for the "Collaboration" attribute:
 
 The graphs contained in the "Radar_Graph_Per Product" folder show the attribute preference scores for each product. 
 
-We use the same "ratio scale" as above. Books, Calendars, Large-Scale Paper Display, Magazines & Pamphlets and Maps & Spatial Plans are using the absolute result of BTL. We shifted all the values so that the lowest score is at 0.2. 
+We use the same "ratio scale" as above. We shifted all the values so that the lowest score is at 0.2. 
 
 Below is the radar chart for "Paper Crafts & Artwork":
 ![Paper Crafts & Art Work](https://github.com/ycheng14799/PaperUtility/blob/master/Radar_Chart%20of%20Products%20and%20Attributes/Radar_Graph_Per_Product/Paper%20Crafts%20%26%20Artworks(set%20minimum%20value%20%3D%200.2).png)
