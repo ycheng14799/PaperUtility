@@ -1,12 +1,13 @@
 # Paper Utility
 ## 11 August 2019 Progress 
 Currently:
-* We collected crowdsource results for 14 out of 20 of our attributes
-* We calculated the product preference rankings for each attribute using the Bradley-Terry model
+* We collected crowdsource results for 14 out of 20 of our attributes (except )
+* We calculated the product preference rankings and absolute distance data for each attribute using the Bradley-Terry model
 * We visualized our results in 3 ways: 
-  * A parallel coordinates plot
-  * Radar graphs
-  * Heatmaps
+  * Bump chart to show ranking correlations
+  * A parallel coordinates plot 
+  * Radar graphs ( ) 
+  * Heatmaps (e.g. visualizing range of content input for 12 products)
 ### Crowdsource Results
 We now have results for the following attributes: Temporality, Spatiality, Range of Content Input, Physical Reconfigurability, Personalization, Information Volume, Information Variety, Information Organization, Information Findability, Information Exploration, Environment, Durability, Digitalization, and Collaboration
 
@@ -33,4 +34,5 @@ Lastly, in Professor Horner's paper, he visualized the probability that one prod
 ![Heatmap](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/heatmapExample.png)
 The graph compares products for each attribute. The darker the color of a cell, the more positive votes its "row product" received when compared to its "column product". 
 
+All the remaining graphs are pushed to the GitHub repository.  
 
