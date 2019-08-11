@@ -24,3 +24,7 @@ With our pairwise comparisons, we calculated a preference score for each product
 
 The following is a parallel coordinates plot of our results: 
 ![Parallel Coordinates Plot](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/ParallelCoordinatesPlot.png)
+The plot shows the Bradley-Terry-Luce scale values of the products for each attribute.
+
+We also generated a radar graph for each product. Here is an example: 
+![Radar Chart]()
