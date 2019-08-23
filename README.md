@@ -1,1 +1,11 @@
-
+![Printed Digital Documents](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/printedDigitalDocuments.png)
+![Paper Crafts & Artworks](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/paperCrafts.png)
+![Forms](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/forms.png)
+![Notebooks](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/notebooks.png)
+![Books](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/books.png)
+![Sticky Notes](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/stickyNotes.png)
+![Paper Cards](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/nameCards.png)
+![Posters](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/posters.png)
+![Calendars](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/calendars.png)
+![Magazines](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/magazines.png)
+![Newspapers](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/newspapers.png)
