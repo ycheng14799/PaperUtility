@@ -6,6 +6,7 @@
 ![Sticky Notes](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/stickyNotes.png)
 ![Paper Cards](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/nameCards.png)
 ![Posters](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/posters.png)
+![Maps](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/maps.png)
 ![Calendars](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/calendars.png)
 ![Magazines](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/magazines.png)
 ![Newspapers](https://raw.githubusercontent.com/ycheng14799/PaperUtility/master/AsterPlots/newspapers.png)
